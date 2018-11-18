@@ -1,0 +1,25 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: black;
+@bgColorBody: white;
+@colorBody: #333;
+@fontFamilyBody: serif;
+@margin: 20px;
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+}
+
+body {
+    margin: @margin;
+    padding: 0;
+    color: @colorBody;
+    background-color: @bgColorBody;
+    font: 100.01%/1 @fontFamilyBody;
+}
+
+.block {
+    box-sizing: border-box;
+}

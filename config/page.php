@@ -12,9 +12,9 @@ return [
         "region" => "layout",
         "template" => "anax/v2/layout/dbwebb_se",
         "data" => [
-            "baseTitle" => " | design",
+            "baseTitle" => " | BTH",
             "bodyClass" => null,
-            "favicon" => "favicon.ico",
+            "favicon" => "favicon.png",
             "htmlClass" => null,
             "lang" => "sv",
             "stylesheets" => [
