@@ -18,6 +18,7 @@ $title = ($title ?? "No title") . ($baseTitle ?? " | No base title defined");
     <title><?= $title ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
 <?php if (isset($favicon)) : ?>
     <link rel="icon" href="<?= $favicon ?>">
 <?php endif; ?>
@@ -27,6 +28,8 @@ $title = ($title ?? "No title") . ($baseTitle ?? " | No base title defined");
         <link rel="stylesheet" type="text/css" href="<?= asset($stylesheet) ?>">
     <?php endforeach; ?>
 <?php endif; ?>
+
+
 
 </head>
 <body>

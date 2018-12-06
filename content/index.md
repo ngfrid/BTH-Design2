@@ -14,7 +14,7 @@ views:
 Min me-sida i kursen design
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
+Detta innehåll är skrivet i markdown och du hittar innehållet i filen content/index.md.
 
 [FIGURE src="image/jag.jpg?w=300" class="right" caption="Jag för några år sedan"]
 

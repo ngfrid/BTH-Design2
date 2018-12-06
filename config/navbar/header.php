@@ -53,5 +53,19 @@ return [
             "url" => "test",
             "title" => "Prova allt du vill.",
         ],
+        [
+            "text" => "Rapport",
+            "url" => "rapport",
+            "title" => "Mina rapporter.",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Kmom04",
+                        "url" => "rapport/fargschema",
+                        "title" => "04_fargschema.",
+                    ],
+                ],
+            ],
+        ],
     ],
 ];

@@ -19,7 +19,7 @@ views:
 Om
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
+Detta innehåll är skrivet i markdown och du hittar innehållet i filen content/om.md.
 
 Här är det då tänkt att jag ska skriva lite om kursen.
 Än så länge har jag bara precis börjat, haft lite lätt panik under installationen av allt som behövs, men det har gått över.
