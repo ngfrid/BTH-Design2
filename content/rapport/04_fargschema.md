@@ -1,6 +1,6 @@
 ---
 ---
-Kmom_04 Rapport om Färgscheman
+Kmom_04 Rapport om Färgschema
 =========================
 
 

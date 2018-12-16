@@ -54,6 +54,11 @@ return [
             "title" => "Prova allt du vill.",
         ],
         [
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "Blogg.",
+        ],
+        [
             "text" => "Rapport",
             "url" => "rapport",
             "title" => "Mina rapporter.",
@@ -64,6 +69,12 @@ return [
                         "url" => "rapport/fargschema",
                         "title" => "04_fargschema.",
                     ],
+                    [
+                        "text" => "Kmom05",
+                        "url" => "rapport/laddtider",
+                        "title" => "05_laddtider.",
+                    ],
+
                 ],
             ],
         ],
