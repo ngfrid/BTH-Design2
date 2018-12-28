@@ -14,11 +14,12 @@ views:
 Min me-sida i kursen design
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen content/index.md.
+<p class="design">Detta innehåll är skrivet i markdown och du hittar innehållet i filen content/index.md.</p>
 
 [FIGURE src="image/jag.jpg?w=300" class="right" caption="Jag för några år sedan"]
 
-Detta är min me-sida i kursen.
+<p class="design">Detta är min me-sida i kursen.</p>
+
 
 Så, en presentation om mig. Kanske inte så överdrivet intressant men här kommer den i alla fall.
 

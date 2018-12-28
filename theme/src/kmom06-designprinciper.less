@@ -1,5 +1,5 @@
 /*!
-* Stylesheet for design principer kmom06.
+* Stylesheet for designprinciper kmom06.
 *
 * This stylesheet is for the design course and kmom03 where we use LESS.
 */
@@ -93,8 +93,6 @@
 @import "@desinax/responsive-menu/less/responsive-menu.less";
 @import "@desinax/responsive-menu/less/media-queries.less";
 
-
-
 /**
  * Figure and figcaption for images and other media using figure/figcaption
  */
@@ -103,9 +101,6 @@
 @import "@desinax/figure/less/codepen.less";
 @import "@desinax/figure/less/figure.less";
 
-/**
-@import "@desinax/figure/less/style.less";
-*/
 /**
  * My own settings, not currently in their own module.
  */
@@ -121,120 +116,18 @@
  @fontFamilyBody:     "Georgia";
  @fontFamilyCode:     "monospace";
 
+
+
  // Magic number and base fontsize
  @magicNumber:  24px;  // 22px
  @fontSizeBody: 16px;
 
- //tema special från base.less
+ @import "https://fonts.googleapis.com/css?family=UnifrakturMaguntia";
+ @import "https://fonts.googleapis.com/css?family=Eater";
+
+ // Enable style from the module and optinally add customized layout
 
 
-
-
-
-
- @bgColorHtml: #424242;
- @bgColorBody: #fff;
- @colorBody: #333;
- @fontFamilyBody: serif;
-
- // tema special från layout_kmom04.LESS
-
-@import "https://fonts.googleapis.com/css?family=UnifrakturMaguntia";
-@import "https://fonts.googleapis.com/css?family=Eater";
-
-
-// Enable style from the module and optinally add customized layout
-
-
-
-figure.figure {
-    #desinax-figure.figure();
-}
-
-figure.asciinema {
-    &:extend(figure.figure);
-    #desinax-figure.asciinema();
-}
-
-figure.codepen,
-figure.figure-codepen {
-    &:extend(figure.figure);
-    #desinax-figure.codepen();
-}
-
-
-
-
-
-h1, h2, h3, h4 {
-        font-family: Eater, cursive;
-}
-
-
-
-
-
-
-
-/*h1, h2, h3, h4 {
-    font-family: UnifrakturMaguntia, cursive;
-}*/
-
-code {
-    color: black;
-}
-
- .site-logo {
-     display: none;
+ h1, h2, h3, h4 {
+         font-family: Eater, cursive;
  }
-
-  .wrap-all {
-     //margin: 0 auto;
-      background-color: ivory;
-      //padding-bottom: 20px;
-      //padding-top: 10px;
-  }
-
-  .wrap-all {
-      background-image: linear-gradient(#21201e, black);
-  }
-
-
-  .inner-wrap {
-      background-color: black;
-      //margin: 0 auto;
-      //max-width: 1000px;
-  }
-
-  .inner-wrap-main {
-      //max-width: 700px;
-      padding: 24px 0;
-      border: 2px solid ivory;
-      min-height: 650px;
-      //margin-top: 20px;
-  }
-
-  .outer-wrap-footer,
-  .inner-wrap-footer {
-      color: black;
-      //max-width: 1000px;
-      //margin-left: auto;
-      //margin-right: auto;
-      background-color: transparent;
-  }
-
-  .region-main {
-      color: white;
-  }
-
-  .region-footer {
-      color: white;
-  }
-
-.inner-wrap-header {
-    color: white;
-}
-
-.wrap-sidebar {
-    color: white;
-}
