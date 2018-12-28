@@ -74,6 +74,21 @@ return [
                         "url" => "rapport/laddtider",
                         "title" => "05_laddtider.",
                     ],
+                    [
+                        "text" => "Kmom06",
+                        "url" => "rapport/designprinciper",
+                        "title" => "06_designprinciper.",
+                    ],
+                    [
+                        "text" => "Kmom06",
+                        "url" => "rapport/designelement",
+                        "title" => "07_designelement.",
+                    ],
+                    [
+                        "text" => "Kmom06",
+                        "url" => "rapport/designprinciperna",
+                        "title" => "08_designprinciperna.",
+                    ],
 
                 ],
             ],

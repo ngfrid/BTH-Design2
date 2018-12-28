@@ -1,0 +1,240 @@
+/*!
+* Stylesheet for design principer kmom06.
+*
+* This stylesheet is for the design course and kmom03 where we use LESS.
+*/
+//show h-grid.
+.vgrid .inner-wrap {
+    @gridImage: "../img/grid_24x30x10-nomargin.png";
+    //@gridImage: "../../img/grid_12x60x20-nomargin.png";
+    #desinax-vgrid.showGrid(@gridImage, 1100px);
+
+    &.inner-wrap-header {
+        #desinax-vgrid.showGrid(@gridImage, 90%);
+    }
+    /*&.inner-wrap-footer {
+        #desinax-vgrid.showGrid(@gridImage);
+    }*/
+}
+
+// show vertical grid.
+.hgrid .inner-wrap {
+    @gridImage: "../img/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+}
+
+
+/**
+* Normalize and reset the style.
+*/
+ @import "normalize.css/normalize.less";
+
+/**
+* Font Awesome.
+*/
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+
+
+/**
+* Internal self contained modules, save in directory module/.
+*/
+/*@import "module/kmom01.less";*/
+@import "module/stylechooser.less";  // Just an example module
+
+/**
+ * Import the typographic grid.
+ */
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+
+
+/**
+* Base style to affect HTML elements on a general scale.
+*/
+
+@import "base/base_kmom06_principer.less";
+
+/**
+ * Import the vertical grid.
+ */
+@import "@desinax/vertical-grid/less/grid.less";
+
+
+
+
+/*.row {
+    #desinax-vgrid.row();
+    background-color: #0f0;
+    margin-bottom: 12px;
+}*/
+
+
+
+/**
+* Layout style for general structure of header, navbar, main, footer
+* and other regions of the page including route specific styles.
+*/
+
+/*@import "layout/layout.less";*/
+@import "layout/layout_kmom06_principer.less";
+@import "layout/responsive.less";
+@import "layout/regions.less";     // To add style for ?regions
+
+
+
+
+
+/**
+ * A responsive menu.
+ */
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+@import "@desinax/responsive-menu/less/media-queries.less";
+
+
+
+/**
+ * Figure and figcaption for images and other media using figure/figcaption
+ */
+
+@import "@desinax/figure/less/asciinema.less";
+@import "@desinax/figure/less/codepen.less";
+@import "@desinax/figure/less/figure.less";
+
+/**
+@import "@desinax/figure/less/style.less";
+*/
+/**
+ * My own settings, not currently in their own module.
+ */
+
+ // Default grid, change to fit your requirements.
+ @columnWidth:   30;
+ @gutterWidth:   10;
+ @columns:       24;
+ @gridType:      "float"; // "flex"
+
+ // Default font-families
+ @fontFamilyHeadings: "Baskerville Old Face";
+ @fontFamilyBody:     "Georgia";
+ @fontFamilyCode:     "monospace";
+
+ // Magic number and base fontsize
+ @magicNumber:  24px;  // 22px
+ @fontSizeBody: 16px;
+
+ //tema special från base.less
+
+
+
+
+
+
+ @bgColorHtml: #424242;
+ @bgColorBody: #fff;
+ @colorBody: #333;
+ @fontFamilyBody: serif;
+
+ // tema special från layout_kmom04.LESS
+
+@import "https://fonts.googleapis.com/css?family=UnifrakturMaguntia";
+@import "https://fonts.googleapis.com/css?family=Eater";
+
+
+// Enable style from the module and optinally add customized layout
+
+
+
+figure.figure {
+    #desinax-figure.figure();
+}
+
+figure.asciinema {
+    &:extend(figure.figure);
+    #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+    &:extend(figure.figure);
+    #desinax-figure.codepen();
+}
+
+
+
+
+
+h1, h2, h3, h4 {
+        font-family: Eater, cursive;
+}
+
+
+
+
+
+
+
+/*h1, h2, h3, h4 {
+    font-family: UnifrakturMaguntia, cursive;
+}*/
+
+code {
+    color: black;
+}
+
+ .site-logo {
+     display: none;
+ }
+
+  .wrap-all {
+     //margin: 0 auto;
+      background-color: ivory;
+      //padding-bottom: 20px;
+      //padding-top: 10px;
+  }
+
+  .wrap-all {
+      background-image: linear-gradient(#21201e, black);
+  }
+
+
+  .inner-wrap {
+      background-color: black;
+      //margin: 0 auto;
+      //max-width: 1000px;
+  }
+
+  .inner-wrap-main {
+      //max-width: 700px;
+      padding: 24px 0;
+      border: 2px solid ivory;
+      min-height: 650px;
+      //margin-top: 20px;
+  }
+
+  .outer-wrap-footer,
+  .inner-wrap-footer {
+      color: black;
+      //max-width: 1000px;
+      //margin-left: auto;
+      //margin-right: auto;
+      background-color: transparent;
+  }
+
+  .region-main {
+      color: white;
+  }
+
+  .region-footer {
+      color: white;
+  }
+
+.inner-wrap-header {
+    color: white;
+}
+
+.wrap-sidebar {
+    color: white;
+}
