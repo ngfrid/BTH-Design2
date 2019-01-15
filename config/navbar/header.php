@@ -89,6 +89,16 @@ return [
                         "url" => "rapport/designprinciperna",
                         "title" => "08_designprinciperna.",
                     ],
+                    [
+                    "text" => "Kmom09",
+                    "url" => "rapport/webbplatsdesign",
+                    "title" => "09_webbplatsdesign.",
+                ],
+                [
+                    "text" => "Kmom10",
+                    "url" => "rapport/design-och-webbplatser",
+                    "title" => "10_design-och-webbplatser.",
+                ],
 
                 ],
             ],
